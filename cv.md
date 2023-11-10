@@ -8,3 +8,24 @@
 
 # About Me
 I studied in IT 12 years ago. I decided to return to the IT sphere. I am studying Web technologies to become a Frontend developer.
+
+# Skills
+* HTML
+* CSS / SCSS
+* JavaScript (Basic)
+* Figma
+* Photoshop
+
+# Code Examples
+
+```
+function rgb(r, g, b) {
+    let hex = "";
+    for (value of arguments) {
+        value = value < 0 ? (value = 0) : value > 255 ? (value = 255) : value;
+        hex += value < 16 ? "0" + value.toString(16) : value.toString(16);
+    }
+    return hex.toUpperCase();
+}
+```
+
