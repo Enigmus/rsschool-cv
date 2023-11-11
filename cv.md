@@ -28,4 +28,14 @@ function rgb(r, g, b) {
     return hex.toUpperCase();
 }
 ```
+# Education
 
+* **Kazakh University of Economics, Finance and International Trade**
+    * Bachelor of Engineering and Technology
+
+# Experience
+**For the last 10 years:**
+* Installer of optical communication lines
+
+# English
+**00** (I know how to use an online translator)
