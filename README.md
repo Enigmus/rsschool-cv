@@ -1,1 +1,1 @@
-https://enigmus.github.io/rsschool-cv/cv
+https://enigmus.github.io/rsschool-cv
