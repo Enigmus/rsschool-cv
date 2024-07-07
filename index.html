@@ -8,8 +8,18 @@
     <title>RSScool-cv-html</title>
   </head>
   <body>
-    <header>Demurov Sergei</header>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#edu">Education</a></li>
+          <li><a href="#contact">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
+      <h1>Demurov Sergei</h1>
       <div class="about">
         <h2>About Me</h2>
         <p>
@@ -29,12 +39,12 @@
       </div>
       <div class="example">
         <h2>Code Examples</h2>
-        <code
-          >function rgb(r, g, b) { let hex = ""; for (value of arguments) {
-          value = value < 0 ? (value = 0) : value > 255 ? (value = 255) : value;
-          hex += value < 16 ? "0" + value.toString(16) : value.toString(16); }
-          return hex.toUpperCase(); }</code
-        >
+        <code>
+          function rgb(r, g, b) { let hex = ""; for (value of arguments) { value
+          = value < 0 ? (value = 0) : value > 255 ? (value = 255) : value; hex
+          += value < 16 ? "0" + value.toString(16) : value.toString(16); }
+          return hex.toUpperCase(); }
+        </code>
       </div>
       <div class="edu">
         <h2>Education</h2>
@@ -59,12 +69,14 @@
       </div>
     </main>
     <footer>
-      <h2>Contacts:</h2>
+      <h2>Contacts</h2>
       <ul>
-        <li><a href="">GitHub: Enigmus</a></li>
-        <li><a href="">Telegram @SD_net</a></li>
-        <li><a href="">VK s.e.nigmus</a></li>
-        <li><a href="">E-mail: s.e.nigmus@gmail.com</a></li>
+        <li><a href="https://github.com/Enigmus">GitHub: Enigmus</a></li>
+        <li><a href="http://t.me/SD_net">Telegram: @SD_net</a></li>
+        <li><a href="https://vk.com/s.e.nigmus">VK: s.e.nigmus</a></li>
+        <li>
+          <a href="mailto:s.e.nigmus@gmail.com">E-mail: s.e.nigmus@gmail.com</a>
+        </li>
       </ul>
     </footer>
   </body>
