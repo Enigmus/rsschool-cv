@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>RSScool-cv-html</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#edu">Education</a></li>
+          <li><a href="#contact">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="about" id="about">
+        <div class="left">
+          <h1>Demurov Sergei</h1>
+          <h2>About Me</h2>
+          <p>
+            I studied in IT 12 years ago. I decided to return to the IT sphere.
+            I am studying Web technologies to become a Frontend developer.
+          </p>
+        </div>
+        <div class="right">
+          <img src="img/ava.jfif" alt="avatar" />
+        </div>
+      </div>
+      <div class="skills" id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS / SCSS</li>
+          <li>JavaScript (Basic)</li>
+          <li>Figma</li>
+          <li>Photoshop</li>
+        </ul>
+      </div>
+      <div class="example">
+        <h2>Code Examples</h2>
+        <code>
+          function rgb(r, g, b) { let hex = ""; for (value of arguments) { value
+          = value < 0 ? (value = 0) : value > 255 ? (value = 255) : value; hex
+          += value < 16 ? "0" + value.toString(16) : value.toString(16); }
+          return hex.toUpperCase(); }
+        </code>
+      </div>
+      <div class="edu" id="edu">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            Kazakh University of Economics, Finance and International Trade
+            <ul>
+              <li>Bachelor of Engineering and Technology</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="expre">
+        <h2>Experience</h2>
+        <p>
+          For the last 10 years:<br />Installer of optical communication lines
+        </p>
+      </div>
+      <div class="lang">
+        <h2>English</h2>
+        <p>00 (I know how to use an online translator)</p>
+      </div>
+      <div class="contact" id="contact">
+        <h2>Contacts</h2>
+        <ul>
+          <li><a href="http://t.me/SD_net">Telegram: @SD_net</a></li>
+          <li><a href="https://vk.com/s.e.nigmus">VK: s.e.nigmus</a></li>
+          <li>
+            <a href="mailto:s.e.nigmus@gmail.com">
+              E-mail: s.e.nigmus@gmail.com
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <a href="https://rs.school/courses/javascript-ru"
+        ><img
+          src="https://elvinyeka.github.io/rsschool-cv/img/rs_school_js.svg"
+          alt="rsapp"
+      /></a>
+      <span>2024</span>
+      <a href="https://github.com/Enigmus">@Enigmus</a>
+    </footer>
+  </body>
+</html>
