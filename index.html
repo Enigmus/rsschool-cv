@@ -44,12 +44,18 @@
       </div>
       <div class="example">
         <h2>Code Examples</h2>
-        <code>
-          function rgb(r, g, b) { let hex = ""; for (value of arguments) { value
-          = value < 0 ? (value = 0) : value > 255 ? (value = 255) : value; hex
-          += value < 16 ? "0" + value.toString(16) : value.toString(16); }
-          return hex.toUpperCase(); }
-        </code>
+        <pre>
+<code>
+  function rgb(r, g, b) { 
+    let hex = "";
+     for (value of arguments) {
+       value = value < 0 ? (value = 0) : value > 255 ? (value = 255) : value;
+       hex += value < 16 ? "0" + value.toString(16) : value.toString(16); 
+      }
+    return hex.toUpperCase(); 
+  }
+</code>
+        </pre>
       </div>
       <div class="edu" id="edu">
         <h2>Education</h2>
