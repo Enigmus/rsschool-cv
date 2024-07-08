@@ -97,6 +97,9 @@ h2{
     font-size: 24px;
     margin: 10px 0;
 }
+section{
+  padding: 10px 0;
+}
 .about {
     display: flex;
     align-items: center;
@@ -105,18 +108,57 @@ h2{
 .about img{
     width: 250px;
     border-radius: 50%;
-
 }
 
-.skills {
+.skills li{
+  list-style: circle;
+  margin: 0 0 0 20px;
 }
-.example {
+.example code{
+  display: flex;
+  background: #abadb4;
+  border-radius: 5px;
+  padding: 10px;
+  min-width: 320px;
 }
-.edu {
+.edu ul{
+  margin-left: 20px;
+}
+.edu li{
+  list-style: circle;
+}
+.portfolio li{
+  list-style: circle;
+  margin-left: 20px;
+}
+.portfolio a:hover {
+  color: var(--hover); 
+  transition: color 0.3s;
 }
 .expre {
 }
 .lang {
 }
-.contact {
+.contact a:hover {
+  color: var(--hover); 
+  transition: color 0.3s;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+footer svg{
+  width: 60px;
+}
+footer a:hover{
+  color: var(--hover); 
+   transition: color 0.3s ease-in-out;
+}
+footer a:hover svg{
+  fill: var(--hover);
+  transition: fill 0.3s;
 }
