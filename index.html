@@ -48,12 +48,12 @@
         <pre><code>function rgb(r, g, b) { 
   let hex = "";
     for (value of arguments) {
-      value = value < 0 
+      value = value &lt; 0 
         ? (value = 0) 
         : value > 255 
           ? (value = 255) 
           : value;
-      hex += value < 16 
+      hex += value &lt; 16 
         ? "0" + value.toString(16) 
         : value.toString(16); 
     }
